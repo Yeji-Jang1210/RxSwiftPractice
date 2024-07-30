@@ -6,14 +6,23 @@
 //
 
 import UIKit
+import RxSwift
+import SnapKit
 
 class ViewController: UIViewController {
+    
+    let simpleLabel = UILabel()
+    let disposeBag = DisposeBag()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        view.backgroundColor = .white
+        
+        view.addSubview(simpleLabel)
+        simpleLabel.snp.makeConstraints { make in
+            make.top.horizontalEdges.equalTo(view.safeAreaLayoutGuide)
+            make.height.equalTo(50)
+        }
     }
-
-
 }
 
