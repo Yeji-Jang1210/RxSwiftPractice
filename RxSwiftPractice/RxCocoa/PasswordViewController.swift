@@ -1,5 +1,5 @@
 //
-//  RxUITextFieldAndUIButton.swift
+//  PasswordViewController.swift
 //  RxSwiftPractice
 //
 //  Created by 장예지 on 7/30/24.
@@ -10,7 +10,7 @@ import RxSwift
 import RxCocoa
 import SnapKit
 
-final class RxUITextFieldAndUIButton: ViewController {
+final class PasswordViewController: ViewController {
     
     private let signName = UITextField()
     private let signEmail = UITextField()

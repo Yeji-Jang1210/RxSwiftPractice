@@ -19,7 +19,7 @@
 		B85507702C58D16F0094ECBA /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = B855076F2C58D16F0094ECBA /* SnapKit */; };
 		B85507722C58D38A0094ECBA /* RxUITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85507712C58D38A0094ECBA /* RxUITableView.swift */; };
 		B85507752C58D5880094ECBA /* RxUISwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85507742C58D5880094ECBA /* RxUISwitch.swift */; };
-		B85507772C58D6DF0094ECBA /* RxUITextFieldAndUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85507762C58D6DF0094ECBA /* RxUITextFieldAndUIButton.swift */; };
+		B85507772C58D6DF0094ECBA /* PasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85507762C58D6DF0094ECBA /* PasswordViewController.swift */; };
 		B85507792C58DA3B0094ECBA /* RxJust.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85507782C58DA3B0094ECBA /* RxJust.swift */; };
 		B855077D2C58DB0B0094ECBA /* RxFrom.swift in Sources */ = {isa = PBXBuildFile; fileRef = B855077C2C58DB0B0094ECBA /* RxFrom.swift */; };
 		B855077F2C58DB4E0094ECBA /* RxOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = B855077E2C58DB4E0094ECBA /* RxOf.swift */; };
@@ -38,7 +38,7 @@
 		B85507672C58CFDD0094ECBA /* RxUIPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxUIPickerView.swift; sourceTree = "<group>"; };
 		B85507712C58D38A0094ECBA /* RxUITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxUITableView.swift; sourceTree = "<group>"; };
 		B85507742C58D5880094ECBA /* RxUISwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxUISwitch.swift; sourceTree = "<group>"; };
-		B85507762C58D6DF0094ECBA /* RxUITextFieldAndUIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxUITextFieldAndUIButton.swift; sourceTree = "<group>"; };
+		B85507762C58D6DF0094ECBA /* PasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordViewController.swift; sourceTree = "<group>"; };
 		B85507782C58DA3B0094ECBA /* RxJust.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxJust.swift; sourceTree = "<group>"; };
 		B855077C2C58DB0B0094ECBA /* RxFrom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxFrom.swift; sourceTree = "<group>"; };
 		B855077E2C58DB4E0094ECBA /* RxOf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxOf.swift; sourceTree = "<group>"; };
@@ -97,7 +97,7 @@
 				B85507672C58CFDD0094ECBA /* RxUIPickerView.swift */,
 				B85507712C58D38A0094ECBA /* RxUITableView.swift */,
 				B85507742C58D5880094ECBA /* RxUISwitch.swift */,
-				B85507762C58D6DF0094ECBA /* RxUITextFieldAndUIButton.swift */,
+				B85507762C58D6DF0094ECBA /* PasswordViewController.swift */,
 			);
 			path = RxCocoa;
 			sourceTree = "<group>";
@@ -202,7 +202,7 @@
 				B85507722C58D38A0094ECBA /* RxUITableView.swift in Sources */,
 				B85507522C58C8A60094ECBA /* SceneDelegate.swift in Sources */,
 				B85507752C58D5880094ECBA /* RxUISwitch.swift in Sources */,
-				B85507772C58D6DF0094ECBA /* RxUITextFieldAndUIButton.swift in Sources */,
+				B85507772C58D6DF0094ECBA /* PasswordViewController.swift in Sources */,
 				B85507792C58DA3B0094ECBA /* RxJust.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
